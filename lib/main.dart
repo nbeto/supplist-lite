@@ -131,7 +131,7 @@ class _SupplistHomePageState extends State<SupplistHomePage> {
   }
 
   void _openDrawerItem(String item) {
-    Navigator.pop(context); // Fecha o drawer
+    Navigator.pop(context);
 
     if (item == 'Produtos') {
       setState(() {
@@ -223,7 +223,7 @@ class _SupplistHomePageState extends State<SupplistHomePage> {
                   _buildOffstageNavigator(3, const SummaryScreen()),
                   _buildOffstageNavigator(4, const ProductManagementScreen()),
                   _buildOffstageNavigator(5, PreferencesScreen()),
-                  _buildOffstageNavigator(6, const AboutScreen()), // Adiciona este
+                  _buildOffstageNavigator(6, const AboutScreen()),
                 ],
               ),
             ),
