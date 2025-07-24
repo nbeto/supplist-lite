@@ -75,7 +75,7 @@ class SupplistApp extends StatelessWidget {
     }
 
     return MaterialApp(
-      title: 'Supplist',
+      title: 'Supplist Lite',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
