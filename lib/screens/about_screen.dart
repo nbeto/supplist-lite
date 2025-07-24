@@ -39,7 +39,7 @@ class AboutScreen extends StatelessWidget {
                   icon: const Icon(Icons.link),
                   label: Text(l10n.githubRepo),
                   onPressed: () async {
-                    final url = Uri.parse('https://github.com/nbeto');
+                    final url = Uri.parse('https://github.com/nbeto/supplist-lite');
                     if (await canLaunchUrl(url)) {
                       await launchUrl(url, mode: LaunchMode.externalApplication);
                     }
