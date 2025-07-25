@@ -1,5 +1,5 @@
-name: supplist
-description: Supplist app
+name: supplist-lite
+description: Supplist Lite
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
